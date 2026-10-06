@@ -1,0 +1,6 @@
+{
+  "name": "AI 조향연구원 - 향기 진로체험 & 가상 조향 연구소",
+  "description": "이미지와 감성을 향기로 번역하는 AI 조향연구원 진로체험 플랫폼. 향기 취향 테스트, 가상 조향 시뮬레이션, 향료 비율 테스트 및 나만의 향수 레시피 포트폴리오를 제공합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

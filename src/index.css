@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRoundB.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html, body {
+    font-family: 'NanumSquareRound', 'Gowun Dodum', -apple-system, BlinkMacSystemFont, 'Pretendard', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.015em;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+
+  button, input, textarea, select {
+    font-family: inherit;
+    letter-spacing: -0.015em;
+  }
+}
+
+/* Ensure clean font inheritance across classes without blurry font overrides */
+.font-serif,
+.font-sans,
+.font-mono {
+  font-family: 'NanumSquareRound', 'Gowun Dodum', sans-serif !important;
+}
+
+/* Optional display font for hero emblems */
+.font-display {
+  font-family: 'Gowun Dodum', 'NanumSquareRound', sans-serif !important;
+}
+
+/* Utility to prevent awkward line breaks in Korean */
+.keep-all {
+  word-break: keep-all;
+}
